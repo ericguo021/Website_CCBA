@@ -1,0 +1,135 @@
+/* for header */
+header {
+    height: 100px;
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-start;
+}
+.empty_box {
+    width: 5%;
+
+}
+#head_logo {
+    width: 15%;
+
+}
+#menu {
+    width: 70%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Quicksand";
+    list-style: none;
+}
+
+ul {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+#donate {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    border-radius: 20px;
+    color: white;
+    height: 50%;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 20%;
+
+}
+
+
+.search-container{
+    width: 10%;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 80%;
+    width: 50px;
+    height: 50px;
+    background-color: #dee2e6;
+}
+
+
+ul {
+    font-family:  "Quicksand", sans-serif;
+    font-size:medium;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section ul {
+    align-items: center;
+}
+
+/* for main class */
+main {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../img/CCBAMA_backgrounp.jpg);
+    background-size: 100%;
+}
+
+.main_01, .main_02 {
+    width: 40%;
+    height: 90%;
+
+}
+
+.main_01 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+.main_011 {
+    width: 90%;
+    height: 85%;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.main_012 {
+    width:25%;
+    height: 12%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    border: 1px black solid;
+}   
+
+.main_012:hover{
+    background-color: brown;
+    color: white
+    
+
+}
+
+#my_btn{
+    text-decoration: none;
+    color: red;
+    align-items: center;
+    text-align: center;
+}
+
+#my_btn:hover{
+    color: white;
+}
